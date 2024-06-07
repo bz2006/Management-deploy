@@ -4,7 +4,6 @@ import axios from 'axios';
 import { Select, Input, InputNumber, Checkbox, DatePicker, Spin,message } from "antd";
 import "./getinvoice.css"
 import * as Icons from '@ant-design/icons';
-import warning from 'antd/es/_util/warning';
 const { PlusOutlined } = Icons;
 const { DeleteOutlined } = Icons;
 
