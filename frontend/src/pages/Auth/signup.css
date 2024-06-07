@@ -1,0 +1,107 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formdiv {
+    height: 430px;
+    border-radius: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.logtxt{
+    color: black;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+
+
+.formtxt{
+    font-size: small;
+    color: black;
+}
+
+.subbtn{
+    width: 235px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(0, 91, 100);
+}
+
+.field1 {
+    width: 230px;
+    height: 35px;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.field2 {
+    width: 230px;
+    padding-left: 5px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.mdivs {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 420px;
+    height: 550px;
+    border-radius: 20px;
+
+
+
+}
+
+.mdiv {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+
+
+
+
+}
+
+.frm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt {
+    margin-top: 30px;
+    color: black;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+
+
+.formtxt {
+    font-size: small;
+}

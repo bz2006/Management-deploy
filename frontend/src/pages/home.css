@@ -1,0 +1,27 @@
+.graphdiv{
+    height: 450px;
+    width: fit-content;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
+}
+.anmain{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+    align-items: center;
+}
+.bottomstat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+}
+.stat{
+    width: 90%;
+    height: 110px;
+    margin-right: 24px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}

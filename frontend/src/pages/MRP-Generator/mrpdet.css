@@ -1,0 +1,356 @@
+.initselect{
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.modelselect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+.genbtn{
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-input-number .ant-input-number-input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px;
+    color: rgb(255 255 255);
+    font-size: inherit;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    width: 100%;
+    text-align: start;
+    background-color: #1f1f1f;
+    border: 0;
+    border-radius: 6px;
+    outline: 0;
+    transition: all 0.2s linear;
+    appearance: textfield;
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-input-number .ant-input-number-handler:hover {
+    height: 60%;
+    background-color: #1f1f1f;
+}
+
+
+.mpage {
+    page-break-after: always;
+}
+
+.mpage-break {
+    page-break-after: always;
+}
+
+.mpage{
+    width: 755px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+.tc {
+    color: white;
+    margin-top: 43px;
+    margin-left: 40px;
+    display: inline-block;
+    font-size: large;
+  }
+  
+  .cnt {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: large;
+    color: white;
+  }
+  
+  .rc {
+    color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: inline-block;
+    font-size: large;
+  }
+  
+  .rcnt {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: large;
+    color: white;
+  }
+  
+  .mrc {
+    margin-left: 179px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+  
+  }
+  
+  .modno {
+    font-size: 15px;
+    margin-left: 7px;
+    font-weight: 700;
+    margin-top: 2px;
+    position: absolute;
+  }
+  
+  .mrpp {
+    margin-left: 7px;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .modl {
+    margin-left: 179px;
+    margin-top: 1px;
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+  }
+  
+  .col {
+    margin-left: 167px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+  }
+  
+  .col2 {
+    margin-left: 167px;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .mr {
+    margin-left: 179px;
+    margin-top: -27px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  
+  }
+  
+  .incl {
+    font-size: 8px;
+    margin-left: 179px;
+    margin-top: 38.5px;
+    position: absolute;
+    font-weight: 700;
+  }
+  
+  .manmy {
+    margin-left: 7px;
+    font-weight: 700;
+    margin-top: 48px;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .col3 {
+    margin-left: 167px;
+    margin-top: 48px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .date {
+    margin-left: 179px;
+    margin-top: 48px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+  }
+  
+  .mrpqty {
+    border: 0px;
+    margin-top: 67px;
+    margin-left: 7px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .col4 {
+    margin-left: 167px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 67px;
+    position: absolute;
+  }
+  
+  .mrpqtycon {
+    margin-left: 179px;
+    margin-top: 67px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+  }
+  
+  .mrpqtycon2 {
+    margin-left: 179px;
+    margin-top: 81px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+  }
+  
+  .col5 {
+    margin-left: 167px;
+    margin-top: 98px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .manfby {
+    margin-top: 98px;
+    font-weight: 700;
+    margin-left: 7px;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .manfby1 {
+    margin-left: 179px;
+    margin-top: 98px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .manfby2 {
+    margin-left: 179px;
+    margin-top: 112px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+  }
+  
+  .manfby3 {
+    margin-left: 179px;
+    margin-top: 127px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .custno {
+    margin-top: 145px;
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .col6 {
+    margin-left: 167px;
+    margin-top: 145px;
+    font-weight: 700;
+    font-size: 14.5px;
+    position: absolute;
+  }
+  
+  .custnum {
+    margin-left: 179px;
+    margin-top: 145px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .vuo {
+    margin-top: 160px;
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+  }
+  
+  .col7 {
+    margin-left: 167px;
+    margin-top: 160px;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+  }
+  
+  .vuocont {
+    margin-left: 179px;
+    margin-top: 160px;
+    font-weight: 700;
+    font-size: 13.7px;
+    position: absolute;
+  }
+  #mrp {
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 180px;
+    width: 377.95275591px;
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    margin: none;
+    border: 1px solid black;
+  
+  }
+  
+  .lggr {
+    position: absolute;
+    width: 325px;
+    margin-left: 27px;
+    margin-top: 53px;
+  }
+  
+  .mrpelem {
+    font-size: 13px;
+    margin-left: 5.5px;
+  
+  }
+  
+  
+  .inc {
+    margin-top: 0px;
+    font-size: 7px;
+  }
+  
+  
+  /* Style the individual grid items */
+  
+  .a4 {
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+  
+  }

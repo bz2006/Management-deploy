@@ -1,0 +1,96 @@
+.tabdiv {
+    padding: 30px;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    .ant-table-thead {
+        .ant-table-cell {
+            background-color: rgb(13, 13, 13);
+            color: white;
+            width: 250px;
+        }
+
+    }
+
+    .ant-table-cell {
+        background-color: #1f1f1f;
+        color: white;
+
+    }
+
+    .ant-table-wrapper .ant-table-tbody .ant-table-row>.ant-table-cell-row-hover {
+        background-color: #313131;
+        color: white
+    }
+}
+
+.ant-modal .ant-modal-content {
+    background-color: #1f1f1f;
+    color: white;
+
+    .ant-modal-title {
+        color: white;
+    }
+
+    .ant-modal-close {
+        color: white;
+    }
+}
+
+.ant-modal .ant-modal-header {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.ant-select .ant-select-arrow {
+    color: rgb(255, 255, 255);
+}
+
+.ant-select-dropdown .ant-select-item-option-content {
+    color: black;
+}
+
+:where(.css-dev-only-do-not-override-mzwlov).ant-select-single.ant-select-lg.ant-select-open .ant-select-selection-item {
+    color: black;
+}
+
+.ant-empty-normal .ant-empty-description{
+    color: white;
+}
+
+.ant-table-wrapper .ant-table-tbody>tr.ant-table-placeholder:hover>th, :where(.css-dev-only-do-not-override-mzwlov).ant-table-wrapper .ant-table-tbody>tr.ant-table-placeholder:hover>td, :where(.css-dev-only-do-not-override-mzwlov).ant-table-wrapper .ant-table-tbody>tr.ant-table-placeholder {
+    background:#313131;
+}
+
+.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    background-color: #1f1f1f;
+    color: white
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-input::placeholder {
+    color: rgb(102, 102, 102);
+}
+.ant-input-outlined {
+    background-color: #1f1f1f;
+    color: white
+};
+
+:where(.css-dev-only-do-not-override-mzwlov).ant-input-outlined:hover {
+    border-color: #4096ff;
+    background-color: #313131;
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-input-outlined:focus, :where(.css-dev-only-do-not-override-mzwlov).ant-input-outlined:focus-within {
+    border-color: #41855b;
+    box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+    outline: 0;
+    color: white;
+    background-color: #1f1f1f;
+}
+
+:where(.css-dev-only-do-not-override-mzwlov).ant-select-single.ant-select-lg.ant-select-open .ant-select-selection-item {
+    color: #878787;
+}

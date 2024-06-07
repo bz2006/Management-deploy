@@ -1,0 +1,675 @@
+.page {
+    width: 755px;
+    height: 1110px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+
+}
+
+.invmain {
+    margin-left: 22px;
+    height: 842px;
+    width: 744px;
+}
+@media print {
+
+    /* Define page size */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    .printbtn {
+        display: none;
+    }
+
+    /* Define size for the page content */
+    .page {
+        width: 100%;
+        /* Adjust to fit the width of A4 */
+        height: auto;
+        /* Let the height adjust proportionally */
+        /* Add any other necessary styles */
+    }
+}
+
+/* ------------change to auto------------------ */
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.subhead {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 0px;
+}
+
+.compadrs {
+    margin-bottom: -18px;
+    font-size: 12px;
+    font-family: Rubik;
+
+    font-weight: 500;
+    color: black;
+}
+
+.compmadrs {
+    margin-bottom: -18.5px;
+    font-family: Rubik;
+    font-weight: 580;
+    font-size: 13px;
+    color: black;
+}
+
+/* -------------head content  ----------- */
+
+
+.invcontent {
+    width: 100%;
+    border: 0.5px solid;
+    height: 400px;
+}
+
+.marketdet {
+    border: 0.5px solid black;
+    border-right: 0.5px solid black;
+    width: 293.5px;
+    display: flex;
+    margin-right: 0.5px;
+    flex-direction: column;
+    height: 111px;
+    justify-content: space-between;
+}
+
+.marketadrs {
+    align-self: flex-end;
+    margin: 0;
+    text-align: start;
+    color: black;
+    font-family: Rubik;
+    font-weight: 450;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.marketadrs1 {
+    margin: 0;
+    text-align: start;
+    color: black;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.gst {
+    height: 17px;
+    display: flex;
+    flex-direction: row;
+    border-top: 0.5px solid black;
+}
+
+.gst1 {
+    font-size: 10px;
+    color: black;
+    padding: 2px;
+    padding-right: 5.5px;
+    font-family: Rubik;
+    font-weight: 500;
+    width: 38.5px;
+    border-right: 0.5px solid black;
+    margin: 0px;
+}
+
+.gst2 {
+    font-size: 12px;
+    padding: 1px;
+    color: black;
+    font-weight: 500;
+    font-family: Rubik;
+    margin: 0px;
+}
+
+.billdet1 {
+    width: 95px;
+    font-family: Rubik;
+    margin-left: 0px;
+    align-content: center;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    height: 24.5px;
+    padding: 1.5px;
+}
+
+.billdet1t {
+    width: 95px;
+    margin-left: 0px;
+    border-left: 0.5px solid black;
+    font-family: Rubik;
+    font-weight: 400;
+    border-top: 0.5px solid black;
+    align-content: center;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    height: 24.5px;
+    padding: 1.5px;
+}
+
+.billdet1v {
+    width: 95px;
+    margin-left: 0px;
+    border-left: 0.5px solid black;
+    font-family: Rubik;
+    border-right: 0.5px solid black;
+    border-bottom: 0px solid black;
+    height: 24.5px;
+    padding: 1.5px;
+}
+
+.billdet2t {
+    width: 166px;
+    align-content: center;
+    border-top: 0.5px solid black;
+    margin-left: -1px;
+    border-right: 0.5px solid black;
+    font-weight: 900;
+    font-family: Rubik;
+    border-bottom: 0.5px solid black;
+    height: 24.5px;
+    padding: 1.5px;
+}
+
+.billdet2 {
+    width: 166px;
+    align-content: center;
+    margin-left: -1px;
+    font-family: Rubik;
+    font-weight: 600;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    height: 24.5px;
+    padding: 1.5px;
+}
+
+.billdet2v {
+    width: 166px;
+    font-family: Rubik;
+    font-weight: 600;
+    margin-left: -1px;
+    border-right: 0.5px solid black;
+    border-bottom: 0px solid black;
+    height: 24.5px;
+    padding: 1.5px;
+}
+
+.billtype {
+    border-top: 0.5px solid black;
+    width: 180.5px;
+    margin-right: 0px;
+    font-family: Rubik;
+    padding-right: 0px;
+    height: 111px;
+}
+
+.billdet {
+    width: 267px;
+    height: 111px;
+    font-family: Rubik;
+
+}
+
+/* ----------------------------------------------------------------- */
+
+.mrphead {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+    width: 44px;
+    font-family: Rubik;
+    font-weight: 550;
+    color: black;
+    height: 30px;
+}
+
+.modelhead {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 246px;
+    font-family: Rubik;
+    font-weight: 550;
+    color: black;
+    font-size: 13px;
+    height: 30px;
+}
+
+.hsnhead {
+    border: 1px solid black;
+    width: 80.5px;
+    color: black;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 550;
+    height: 30px;
+}
+
+.unithead {
+    border: 1px solid black;
+    width: 95.5px;
+    color: black;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 550;
+    height: 30px;
+}
+
+.qtyhead {
+    border: 1px solid black;
+    width: 95px;
+    color: black;
+    font-family: Rubik;
+    font-weight: 550;
+    font-size: 13px;
+    height: 30px;
+}
+
+.grosshead {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 0.5px solid black;
+    width: 165.5px;
+    font-family: Rubik;
+    font-weight: 550;
+    font-size: 13px;
+    color: black;
+    height: 30px;
+}
+
+/* ------------------------------------------ */
+
+.mrp {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 46px;
+    color: black;
+    display: table;
+    vertical-align: top;
+    height: 450px;
+}
+
+.model {
+    border-left: 1px solid black;
+
+    border-bottom: 1px solid black;
+    width: 248px;
+    vertical-align: top;
+    color: black;
+    display: table;
+    height: 450px;
+}
+
+.hsn {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 83px;
+    display: table;
+    color: black;
+    vertical-align: top;
+    height: 450px;
+}
+
+.unit {
+    color: black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 97.5px;
+    display: table;
+    vertical-align: top;
+    height: 450px;
+}
+
+.qty {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 98px;
+    color: black;
+    vertical-align: top;
+    display: table;
+
+    height: 450px;
+}
+
+.totalqty {
+    height: 20px;
+    display: table-row;
+    color: black;
+    vertical-align: bottom;
+    font-size: 14px;
+    width: 50px;
+    border-top: 1px solid black;
+}
+
+.instruction {
+    vertical-align: bottom;
+    display: table-row;
+    font-family: Rubik;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.gross {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 168px;
+    vertical-align: top;
+    display: table;
+    color: black;
+    height: 450px;
+}
+
+.inovicecontent {
+    margin: 0;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 450;
+    margin-top: 5px;
+}
+
+/* ---------------------------------------------------- */
+.blank {
+    width: 40px;
+    height: 150px;
+}
+
+.amountname {
+    height: 200px;
+    width: 114.5px;
+}
+
+.amtncont {
+    /* border-bottom: 0.1px solid black;
+    border-right: 0.1px solid black;
+    border-left: 0.1px solid black; */
+    color: black;
+    margin: 0;
+    text-align: end;
+    font-family: Rubik;
+    font-weight: 500;
+    padding: 5px;
+    padding-top: 9px;
+    font-size: 12px;
+
+}
+
+.billcont {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    color: black;
+    margin: 0;
+    font-family: Rubik;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+.bill {
+    width: 169.5px;
+    justify-items: center;
+
+}
+
+.comapny {
+    padding-top: 10px;
+    padding-left: 50px;
+    height: fit-content;
+    width: 440.5px;
+}
+
+.comapnycont {
+    margin: 0;
+    font-family: Rubik;
+    font-weight: 470;
+    color: black;
+    font-size: 15px;
+}
+
+.contbottom {
+    margin: 0;
+    color: black;
+    font-family: Rubik;
+}
+
+.print-btn {
+    position: absolute;
+}
+
+/* Display only the contentToPrint div when printing */
+@media print {
+
+    .print-btn {
+        display: none;
+    }
+    .printhead{
+        display: none;
+    }
+}
+.printhead{
+    display: flex;
+    flex-direction: row;
+    padding-right: 90px;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+:where(.css-dev-only-do-not-override-mzwlov).ant-modal-confirm .ant-modal-confirm-title {
+    color: white;
+}
+
+:where(.css-dev-only-do-not-override-mzwlov).ant-modal-confirm .ant-modal-confirm-content {
+    color: white;
+}
+
+/*
+.marketadrs{
+    width: 240px;
+    border: 1px solid black;
+        height: 80px;
+}
+.billhead{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.billtype{
+    width: 165px;
+    background-color: aquamarine;
+    height: 80px;
+}
+.billdetails{
+    width: 201px; 
+    border: 1px solid black;
+        height: 80px;
+}
+.invno{
+    width: 70px; 
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+        height: 30px;
+}
+.invnocont{
+    width: 125px; 
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+        height: 30px;
+}
+.date{
+    width: 70px; 
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+        height: 20px;
+}
+.datecont{
+    width: 125px; 
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+        height: 20px;
+}
+.po{
+    width: 70px; 
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+        height: 30px;
+}
+.pocont{
+    width: 125px; 
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+        height: 30px;
+}
+.gstno{
+    border: 1px solid black;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.gstcont1{
+    width: 39px;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: blue;
+    border: 1px solid black;
+    height: 15px;
+}
+.commodity{
+    width: 195px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.auth{
+    width: 161px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.vendor{
+    width: 70px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.vendorcode{
+    width: 125px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.inbodyhead{
+    width: fit-content;
+    margin-left: -0.5px;
+    margin-top: -1px;
+    border: 1px solid black;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.mrp{
+    width: 38.3px;
+    border: 1px solid black;
+    height: 30px;
+}
+.models{
+    width: 195px;
+    margin-left: -1px;
+    border: 1px solid black;
+    height: 30px;
+}
+.hsn{
+    width: 68.5px;
+    border: 1px solid black;
+    height: 30px;
+}
+.uniprice{
+    width: 89.5px;
+    border: 1px solid black;
+    height: 30px;
+}
+.qty{
+    width: 68.5px;
+    border: 1px solid black;
+    height: 30px;
+}
+.grprice{
+    width: 126px;
+    border: 1px solid black;
+    height: 30px;
+}
+.invcontent2{
+    display: flex;
+    flex-direction: row;
+}
+.mrpcont{
+    width: 39px;
+    margin-left: -0.5px;
+    margin-top: -1px;
+    border: 1px solid black;
+    height: 272px;
+}
+.modelscont{
+    width: 196.5px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+    height: 272px;
+}
+.hsncont{
+    width: 70px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 272px;
+}
+.unitpricecont{
+    width: 91px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 272px;
+}
+.qtycont{
+    width: 70px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+    height: 272px;
+}
+.grpricecont{
+    width: 127px;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid black;
+    height: 272px;
+} */
