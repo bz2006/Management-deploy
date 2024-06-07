@@ -12,17 +12,19 @@ import UserRoutes from "./routes/usersRoute.js"
 import AnalyticsRoutes from "./routes/AnalyticsRoutes.js"
 import { sendEmail ,sendOTP} from "./middlewares/nodemailerMiddleware.js";
 import { FetchMonthlyInvoices } from "./middlewares/MonthlyInvoice.js";
-
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
 import authRoute from "./routes/authRoute.js"
 
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 dotenv.config();
 
 connectdb();
 const app = express()
 
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:4000'],
+  origin: ['https://vision-management-console.visionwoodenclocks.com', 'https://vision-web-management-console.visionwoodenclocks.com'],
   credentials: true,
 };
 
@@ -40,9 +42,12 @@ app.use("/vm-api/v1/users", UserRoutes)
 
 app.use("/api/v1/auth",authRoute)
 
+app.use(express.static(path.join(__dirname, "frontend/build")))
+app.use(express.static(path.join(__dirname, 'frontend', 'public')));
 
-app.get("/", (req, res) => {
-  res.send("<h1>Welcome to VISION-Mangement</h1>");
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
 });
 
 

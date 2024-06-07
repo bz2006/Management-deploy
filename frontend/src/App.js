@@ -21,7 +21,7 @@ import PageUnderwork from "./pages/maintainance";
 
 
 
-axios.defaults.baseURL = "http://localhost:3001"
+axios.defaults.baseURL = "https://vision-management-console.visionwoodenclocks.com"
 axios.defaults.withCredentials = true
 
 function App() {
