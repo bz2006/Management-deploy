@@ -63,7 +63,7 @@ cron.schedule('0 1 1 * *', () => {
 app.post('/send-email', sendEmail);
 app.post('/send-verification', sendOTP);
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
   console.log('****Server Started on ' + process.env.DEV_MODE + " Mode PORT:" + PORT + "****")
 })
