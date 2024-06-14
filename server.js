@@ -10,6 +10,8 @@ import MarketsRoute from "./routes/MarketsRoute.js"
 import InvoiceRoutes from "./routes/InvoiceRoutes.js"
 import UserRoutes from "./routes/usersRoute.js"
 import AnalyticsRoutes from "./routes/AnalyticsRoutes.js"
+import { fileURLToPath } from 'url';
+import path from "path";
 import { sendEmail ,sendOTP} from "./middlewares/nodemailerMiddleware.js";
 import { FetchMonthlyInvoices } from "./middlewares/MonthlyInvoice.js";
 
@@ -40,9 +42,16 @@ app.use("/vm-api/v1/users", UserRoutes)
 
 app.use("/api/v1/auth",authRoute)
 
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to VISION-Mangement</h1>");
+});
+
+app.use(express.static(path.join(__dirname, 'monthlyinv/build')));
+
+app.get('/view-monthly-invoices', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'monthlyinv', 'build', 'index.html'));
 });
 
 
